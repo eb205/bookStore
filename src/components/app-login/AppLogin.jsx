@@ -76,4 +76,12 @@ class AppLogin extends Component {
     }
 }
 
-export default AppLogin;
+const mapStateToProps = () => {
+    return {};
+}
+
+const mapDispatchToProps = () => {
+    
+}
+
+export default connect()(AppLogin);
