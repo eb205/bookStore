@@ -19,7 +19,7 @@ class AppHeader extends Component {
         }
 
         return (
-            <nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
                 <div className="navbar-header">
                     <Link className="navbar-brand" to="/">BookStore</Link>
                 </div>

@@ -7,7 +7,7 @@ import AppAccount from '../app-account/AppAccount.jsx'
 class AppMain extends Component {
   render() {
     return (
-      <div>
+      <div className="container-fluid">
         <Route exact path='/' component={AppHome}/>
         <Route path='/Account' component={AppAccount}/>
       </div>
